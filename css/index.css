@@ -167,3 +167,26 @@ footer nav a {
 
 /*-----------------------------------About page---------------------------------------------*/
 
+.container about-page{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.jumbo-about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-top-content{
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.about-top-content p{
+    margin-bottom: 20px;
+}
