@@ -273,3 +273,15 @@ margin-bottom: 20px;
 .about-top-content p{
     margin-bottom: 20px;
 }
+
+@media (max-width: 1200px) {
+    p {
+    font-size: 1.25rem;
+    }
+}
+    
+    @media (max-width: 800px) {
+    p {
+    font-size: 1.5rem;
+    }
+}
