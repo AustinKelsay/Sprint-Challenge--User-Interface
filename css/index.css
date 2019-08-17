@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.nav a{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+
+.jumbo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +164,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*-----------------------------------About page---------------------------------------------*/
+
