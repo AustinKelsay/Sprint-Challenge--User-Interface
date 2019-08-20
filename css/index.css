@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
 }
 
 p {
@@ -69,6 +70,33 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.nav a{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+        color: lightpink;
+        transition: color 1s ease; 
+    }
+
+
+
+.jumbo{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .top-content {
@@ -112,6 +140,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +211,82 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*-----------------------------------About page---------------------------------------------*/
+
+.container about-page{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.jumbo-about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-top-content{
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.about-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-main section{
+    width: 360px;
+    margin: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.about-main section h3{
+    margin-top: 10px;
+}
+
+.about-main section p{
+margin-bottom: 20px;
+}
+
+.about-main button{
+    margin-bottom: 20px;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    height: 40px;
+    width: 120px;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+.about-main article{
+    margin-bottom: 20px;
+}
+
+.about-top-content p{
+    margin-bottom: 20px;
+}
+
+.about-bottom-content{
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    p {
+    font-size: 1.25rem;
+    }
+}
+    
+    @media (max-width: 800px) {
+    p {
+    font-size: 1.5rem;
+    }
 }
